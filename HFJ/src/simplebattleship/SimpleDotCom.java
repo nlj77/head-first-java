@@ -1,5 +1,12 @@
-
+package simplebattleship;
 public class SimpleDotCom {
+		
+	int[] locationCells;
+	int numOfHits = 0;
+	
+	public void setLocationCells(int[] locs) {
+		locationCells = locs;
+	}
 
 		public String checkYourself (String stringGuess) {
 			
@@ -7,7 +14,6 @@ public class SimpleDotCom {
 			
 			String result = "miss";
 			
-			int[] locationCells;
 			for (int cell : locationCells) {
 				  if (guess == cell) {
 					

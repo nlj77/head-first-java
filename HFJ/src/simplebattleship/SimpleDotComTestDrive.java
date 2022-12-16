@@ -1,4 +1,4 @@
-
+package simplebattleship;
 public class SimpleDotComTestDrive {
 	
 	public static void main (String[] args) {
@@ -9,9 +9,9 @@ public class SimpleDotComTestDrive {
 		
 		dot.setLocationCells(locations);
 		
-		String userGuess = "2";
+		String userGuess = "2";	
 		
-		String result = dot.checkYourself(userGuess);
+		String result = dot.checkYourself(userGuess);	
 		
 		String testResult = "failed";
 		
