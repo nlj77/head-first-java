@@ -1,4 +1,8 @@
 package simplebattleship;
+/**
+ * @author nickjones
+ *
+ */
 public class SimpleDotCom {
 		
 	int[] locationCells;
@@ -8,6 +12,10 @@ public class SimpleDotCom {
 		locationCells = locs;
 	}
 
+	/**
+	 * @param stringGuess
+	 * @return
+	 */
 	public String checkYourself (String stringGuess) {
 			int guess = Integer.parseInt(stringGuess);
 			String result = "miss";
